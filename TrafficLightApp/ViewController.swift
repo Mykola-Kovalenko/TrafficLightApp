@@ -9,9 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    @IBOutlet var redLight: UIView!
+    @IBOutlet var yellowLight: UIView!
+    @IBOutlet var greenLight: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        redLight.layer.cornerRadius = 45
+        yellowLight.layer.cornerRadius = 45
+        greenLight.layer.cornerRadius = 45
     }
 
 
