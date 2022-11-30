@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     private var currentLight = CurrentLiht.red
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        startButton.layer.cornerRadius = 15
         redLight.layer.cornerRadius = 45
         yellowLight.layer.cornerRadius = 45
         greenLight.layer.cornerRadius = 45
